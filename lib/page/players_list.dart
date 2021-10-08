@@ -56,38 +56,223 @@ class _PlayersListState extends State<PlayersList> {
             ),
             SliverList(
               delegate: SliverChildListDelegate([
-                ListTile(
-                  title: Text('Lionel Messi'),
-                  subtitle: Text('Paris Saint-Germain'),
-                  leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
-                  trailing: Icon(Icons.favorite_outline),
-                  tileColor: ColorPalette.grey3,
-                  isThreeLine: false,
-                ),
-                SizedBox(height: 1),
-                ListTile(
-                  title: Text('Lionel Messi'),
-                  subtitle: Text('Paris Saint-Germain'),
-                  leading: Icon(Icons.favorite_outline),
-                  trailing: Icon(Icons.favorite_outline),
-                  tileColor: ColorPalette.grey3,
-                ),
-                SizedBox(height: 1),
-                ListTile(
-                  title: Text('Lionel Messi'),
-                  subtitle: Text('Paris Saint-Germain'),
-                  leading: Icon(Icons.favorite_outline),
-                  trailing: Icon(Icons.favorite_outline),
-                  tileColor: ColorPalette.grey3,
-                ),
-                SizedBox(height: 1),
-                Container(
-                  color: ColorPalette.grey3,
-                  height: 100,
-                  child: Center(
-                    child: Text(
-                      'This is an awesome shopping platform',
+                GestureDetector(
+                  onTap: () {
+                    Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
                     ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
+                  ),
+                ),
+                SizedBox(height: 1),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.pushNamed(context, '/third');
+                  },
+                  child: ListTile(
+                    contentPadding: EdgeInsets.only(left: 20, right: 20,),
+                    dense: true,
+                    title: Text('Lionel Messi'),
+                    subtitle: Text('Paris Saint-Germain'),
+                    leading: Icon(Icons.star_outlined, color: ColorPalette.grey4,),
+                    trailing: Container(
+                      child: Image(
+                        image: AssetImage('assets/images/Rectangle1.png'),
+                        width: 35,
+                        height: 21,
+                      ),
+                    ),
+                    tileColor: ColorPalette.grey3,
+                    isThreeLine: false,
                   ),
                 ),
                 SizedBox(height: 1),

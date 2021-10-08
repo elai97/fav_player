@@ -11,7 +11,7 @@ class ColorPalette {
   static const Color yellow1 = Color(0xFFFFAF52);
 
   static const Color black1 = Color(0xFF2c2c2c);
-  static const Color black2 = Color(0xFF151515);
+  static const Color black2 = Color(0xFF3C3C3C);
   static const Color black3 = Color(0xFF141414);
 
   static const Color iconColor = Color(0xFF3E3E3E);

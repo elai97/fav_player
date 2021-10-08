@@ -1,4 +1,5 @@
 import 'package:fav_player/l10n/l10n.dart';
+import 'package:fav_player/page/player_info.dart';
 import 'package:fav_player/page/players_list.dart';
 import 'package:fav_player/page/start_page.dart';
 import 'package:flutter/material.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => PlayersList(),
         '/second': (context) => PlayersList(),
+        '/third': (context) => PlayerInfo(),
       },
     );
   }
